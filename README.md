@@ -3,4 +3,4 @@ TestePagina
 
 Teste de publicação de página
 
-> http://vibonadia.github.io/TestePagina/
+http://vibonadia.github.io/TestePagina/
