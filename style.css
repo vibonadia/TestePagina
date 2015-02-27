@@ -12,25 +12,27 @@ h1 {
 	font-size: 18px;
 	margin-bottom: 0;
 	font-weight: bold;
-	color: #FAA684;
+	color: #73626E;
 }
 
 #top {
 	color: #4B585C;
-	background: #E3E3CB;
+	background: URL(images/degrade2.png) no-repeat right;
+	background-color: #413E4A;
 	text-align: center;
 	height:100px;
 	padding: 1em;
 	position: fixed;
 	width: 100%;
 	top: 0;
+	z-index: 50;
 }
 
 .circle {
 	line-height: 0;
 	display: inline-block;
 	margin: 5px;
-	border: 2px solid rgba(255,255,255,0.4);
+	border: 2px solid rgba(65,62,74,0.4);
 	border-radius: 50%;
 	transition: linear 0.25s;
 }
@@ -69,7 +71,7 @@ h1 {
 }
 
 #content {
-	position: relative;
+	position: absolute;
 }
 
 #content .item  {
